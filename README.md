@@ -8,8 +8,9 @@ Project Title: Handwritten Digit Classification Model (MNIST)
 2. 학습 과정 및 정확도
 모델을 100 epochs 동안 학습시키면서, 훈련 데이터와 테스트 데이터에 대한 정확도 변화를 기록하였습니다.
 아래의 그래프는 각 epoch에 따른 **훈련 정확도(train accuracy)**와 **테스트 정확도(test accuracy)**의 변화를 보여줍니다.
-
+```
 Epoch 99 | Loss: 82.6760 | Train Acc: 0.9013 | Test Acc: 0.9044
+```
 훈련 정확도는 학습이 진행될수록 지속적으로 증가하고 있으며,
 
 테스트 정확도는 훈련 정확도와 비슷하게 증가하면서 안정적인 결과를 보여주고 있습니다.
